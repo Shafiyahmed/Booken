@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thank You | Booken</title>
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Work+Sans:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <style>
+    .thankyou-section {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--xiketic);
+    }
+    .thankyou-card {
+      background: var(--oxford-blue);
+      padding: 40px 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+    .thankyou-card h2 {
+      font-size: var(--fs-2);
+      font-family: var(--ff-jost);
+      color: var(--maximum-blue-green);
+      margin-bottom: 18px;
+    }
+    .thankyou-card p {
+      color: var(--white-2);
+      font-size: var(--fs-6);
+      margin-bottom: 24px;
+    }
+    .btn {
+      padding: 12px 32px;
+      font-size: var(--fs-6);
+      border-radius: 8px;
+      background: var(--maximum-blue-green);
+      color: var(--xiketic);
+      border: none;
+      cursor: pointer;
+      transition: var(--transition-1);
+      text-decoration: none;
+      display: inline-block;
+    }
+    .btn:is(:hover, :focus) {
+      background: transparent;
+      color: var(--maximum-blue-green);
+      border: 1px solid var(--maximum-blue-green);
+    }
+  </style>
+</head>
+<body>
+  <section class="thankyou-section">
+    <div class="thankyou-card">
+      <h2>Thank You!</h2>
+      <p>Your order has been placed successfully.<br>
+         We appreciate your purchase and hope you enjoy your new books!</p>
+      <a href="index.html" class="btn">Back to Home</a>
+    </div>
+  </section>
